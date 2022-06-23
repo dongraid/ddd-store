@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+  postgres:
+    image: postgres:9.6
+    environment:
+      - POSTGRES_USER=vitalii
+      - POSTGRES_PASSWORD=12345
+    ports:
+      - "54321:5432"
